@@ -1,0 +1,257 @@
+Fri Feb 23 2024 19:27:35 GMT+0100 (West Africa Standard Time) Error: MongooseError: Model.findOneAndUpdate() no longer accepts a callback
+    at Model.findOneAndUpdate (/home/xela/idBackend/node_modules/mongoose/lib/model.js:2544:11)
+    at exports.verifyUser (/home/xela/idBackend/controllers/user/userController.js:78:18)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/xela/idBackend/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/xela/idBackend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/xela/idBackend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/xela/idBackend/node_modules/express/lib/router/index.js:175:3)
+Fri Feb 23 2024 21:40:49 GMT+0100 (West Africa Standard Time) Error: MongooseError: Model.findOneAndUpdate() no longer accepts a callback
+    at Model.findOneAndUpdate (/home/xela/idBackend/node_modules/mongoose/lib/model.js:2544:11)
+    at exports.verifyUser (/home/xela/idBackend/controllers/user/userController.js:78:18)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/xela/idBackend/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/xela/idBackend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/xela/idBackend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/xela/idBackend/node_modules/express/lib/router/index.js:175:3)
+Fri Feb 23 2024 22:34:11 GMT+0100 (West Africa Standard Time) Error: ReferenceError: generateemailO is not defined
+    at exports.resendOTP (/home/xela/idBackend/controllers/user/userController.js:123:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Feb 23 2024 22:35:29 GMT+0100 (West Africa Standard Time) Error: ReferenceError: generateemailO is not defined
+    at exports.resendOTP (/home/xela/idBackend/controllers/user/userController.js:123:20)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Feb 23 2024 22:39:14 GMT+0100 (West Africa Standard Time) Error: ReferenceError: otp is not defined
+    at exports.resendOTP (/home/xela/idBackend/controllers/user/userController.js:131:57)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Sat Feb 24 2024 01:09:04 GMT+0100 (West Africa Standard Time) Error: ReferenceError: jwt is not defined
+    at exports.registerUser (/home/xela/idBackend/controllers/user/userController.js:54:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Sat Feb 24 2024 01:47:59 GMT+0100 (West Africa Standard Time) Error: TypeError: User.findOneAndUpdate is not a function
+    at exports.updateProfile (/home/xela/idBackend/controllers/profile/profileController.js:10:18)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+    at exports.verifyToken (/home/xela/idBackend/core/verifyToken.js:25:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Sat Feb 24 2024 01:58:38 GMT+0100 (West Africa Standard Time) Error: ReferenceError: uploadFileResponse is not defined
+    at exports.updateProfile (/home/xela/idBackend/controllers/profile/profileController.js:25:34)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+    at exports.verifyToken (/home/xela/idBackend/core/verifyToken.js:25:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Sat Feb 24 2024 02:01:48 GMT+0100 (West Africa Standard Time) Error: Error: Must supply api_key
+    at ensureOption (/home/xela/idBackend/node_modules/cloudinary/lib/utils/ensureOption.js:19:13)
+    at Object.sign_request (/home/xela/idBackend/node_modules/cloudinary/lib/utils/index.js:1132:16)
+    at Object.process_request_params (/home/xela/idBackend/node_modules/cloudinary/lib/utils/index.js:1182:22)
+    at call_api (/home/xela/idBackend/node_modules/cloudinary/lib/uploader.js:470:18)
+    at Object.upload (/home/xela/idBackend/node_modules/cloudinary/lib/uploader.js:53:10)
+    at Object.upload (/home/xela/idBackend/node_modules/cloudinary/lib/utils/index.js:1379:21)
+    at uploadFileResponse (/home/xela/idBackend/core/cloudinary.js:19:52)
+    at exports.updateProfile (/home/xela/idBackend/controllers/profile/profileController.js:26:40)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+Sat Feb 24 2024 09:19:04 GMT+0100 (West Africa Standard Time) Error: ReferenceError: s is not defined
+    at exports.updateProfile (/home/xela/idBackend/controllers/profile/profileController.js:48:72)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Sat Feb 24 2024 09:23:49 GMT+0100 (West Africa Standard Time) Error: ReferenceError: _ is not defined
+    at exports.verifyUser (/home/xela/idBackend/controllers/user/userController.js:117:56)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Sat Feb 24 2024 09:50:15 GMT+0100 (West Africa Standard Time) Error: MongoServerError: E11000 duplicate key error collection: test.users index: phoneNumber_1 dup key: { phoneNumber: null }
+    at InsertOneOperation.execute (/home/xela/idBackend/node_modules/mongodb/lib/operations/insert.js:48:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperationAsync (/home/xela/idBackend/node_modules/mongodb/lib/operations/execute_operation.js:106:16)
+Sat Feb 24 2024 09:51:52 GMT+0100 (West Africa Standard Time) Error: MongoServerError: E11000 duplicate key error collection: test.users index: phoneNumber_1 dup key: { phoneNumber: null }
+    at InsertOneOperation.execute (/home/xela/idBackend/node_modules/mongodb/lib/operations/insert.js:48:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperationAsync (/home/xela/idBackend/node_modules/mongodb/lib/operations/execute_operation.js:106:16)
+Sat Feb 24 2024 09:53:09 GMT+0100 (West Africa Standard Time) Error: MongoServerError: E11000 duplicate key error collection: test.users index: phoneNumber_1 dup key: { phoneNumber: null }
+    at InsertOneOperation.execute (/home/xela/idBackend/node_modules/mongodb/lib/operations/insert.js:48:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperationAsync (/home/xela/idBackend/node_modules/mongodb/lib/operations/execute_operation.js:106:16)
+Sat Feb 24 2024 09:56:40 GMT+0100 (West Africa Standard Time) Error: MongoServerError: E11000 duplicate key error collection: test.users index: phoneNumber_1 dup key: { phoneNumber: null }
+    at InsertOneOperation.execute (/home/xela/idBackend/node_modules/mongodb/lib/operations/insert.js:48:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperationAsync (/home/xela/idBackend/node_modules/mongodb/lib/operations/execute_operation.js:106:16)
+Sat Feb 24 2024 09:58:38 GMT+0100 (West Africa Standard Time) Error: MongoServerError: E11000 duplicate key error collection: test.users index: phoneNumber_1 dup key: { phoneNumber: "" }
+    at InsertOneOperation.execute (/home/xela/idBackend/node_modules/mongodb/lib/operations/insert.js:48:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperationAsync (/home/xela/idBackend/node_modules/mongodb/lib/operations/execute_operation.js:106:16)
+Sat Feb 24 2024 10:01:22 GMT+0100 (West Africa Standard Time) Error: MongoServerError: E11000 duplicate key error collection: test.users index: phoneNumber_1 dup key: { phoneNumber: null }
+    at InsertOneOperation.execute (/home/xela/idBackend/node_modules/mongodb/lib/operations/insert.js:48:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeOperationAsync (/home/xela/idBackend/node_modules/mongodb/lib/operations/execute_operation.js:106:16)
+Sat Feb 24 2024 13:00:46 GMT+0100 (West Africa Standard Time) Error: ReferenceError: likes is not defined
+    at exports.deleteAllLikes (/home/xela/idBackend/controllers/profile/profileController.js:123:18)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+    at exports.verifyToken (/home/xela/idBackend/core/verifyToken.js:25:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Sat Feb 24 2024 20:11:08 GMT+0100 (West Africa Standard Time) Error: ReferenceError: res is not defined
+    at exports.addDateEvent (/home/xela/idBackend/controllers/event/eventController.js:40:5)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Sat Feb 24 2024 20:25:01 GMT+0100 (West Africa Standard Time) Error: MongoServerSelectionError: connection 3 to 15.188.170.239:27017 closed
+    at EventTarget.<anonymous> (/home/xela/idBackend/node_modules/mongodb/lib/sdam/topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:822:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:757:26)
+    at abortSignal (node:internal/abort_controller:374:10)
+    at TimeoutController.abort (node:internal/abort_controller:396:5)
+    at Timeout.<anonymous> (/home/xela/idBackend/node_modules/mongodb/lib/utils.js:1011:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+Sat Feb 24 2024 20:31:33 GMT+0100 (West Africa Standard Time) Error: MongoServerSelectionError: getaddrinfo EAI_AGAIN ac-2lgkikp-shard-00-02.yc5im3x.mongodb.net
+    at EventTarget.<anonymous> (/home/xela/idBackend/node_modules/mongodb/lib/sdam/topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:822:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:757:26)
+    at abortSignal (node:internal/abort_controller:374:10)
+    at TimeoutController.abort (node:internal/abort_controller:396:5)
+    at Timeout.<anonymous> (/home/xela/idBackend/node_modules/mongodb/lib/utils.js:1011:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+Sat Feb 24 2024 21:28:13 GMT+0100 (West Africa Standard Time) Error: TypeError: user.find is not a function
+    at exports.addUserLike (/home/xela/idBackend/controllers/profile/profileController.js:69:31)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+    at exports.verifyToken (/home/xela/idBackend/core/verifyToken.js:25:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Sun Feb 25 2024 15:02:40 GMT+0100 (West Africa Standard Time) Error: MongoServerSelectionError: connection 3 to 13.37.205.212:27017 closed
+    at EventTarget.<anonymous> (/home/xela/idBackend/node_modules/mongodb/lib/sdam/topology.js:276:34)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:822:20)
+    at EventTarget.dispatchEvent (node:internal/event_target:757:26)
+    at abortSignal (node:internal/abort_controller:374:10)
+    at TimeoutController.abort (node:internal/abort_controller:396:5)
+    at Timeout.<anonymous> (/home/xela/idBackend/node_modules/mongodb/lib/utils.js:1011:92)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+Sun Feb 25 2024 15:25:04 GMT+0100 (West Africa Standard Time) Error: CastError: Cast to ObjectId failed for value "65da3f4bc66e6f852b6d94ca\n" (type string) at path "_id" for model "DateEvent"
+    at SchemaObjectId.cast (/home/xela/idBackend/node_modules/mongoose/lib/schema/objectId.js:250:11)
+    at SchemaType.applySetters (/home/xela/idBackend/node_modules/mongoose/lib/schemaType.js:1221:12)
+    at SchemaType.castForQuery (/home/xela/idBackend/node_modules/mongoose/lib/schemaType.js:1636:17)
+    at cast (/home/xela/idBackend/node_modules/mongoose/lib/cast.js:375:32)
+    at Query.cast (/home/xela/idBackend/node_modules/mongoose/lib/query.js:4775:12)
+    at Query._castConditions (/home/xela/idBackend/node_modules/mongoose/lib/query.js:2199:10)
+    at model.Query._findOne (/home/xela/idBackend/node_modules/mongoose/lib/query.js:2513:8)
+    at model.Query.exec (/home/xela/idBackend/node_modules/mongoose/lib/query.js:4319:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.getSingleEvent (/home/xela/idBackend/controllers/event/eventController.js:61:27)
+Sun Feb 25 2024 15:29:42 GMT+0100 (West Africa Standard Time) Error: CastError: Cast to ObjectId failed for value "65da3f4bc66e6f852b6d94ca\n" (type string) at path "_id" for model "DateEvent"
+    at SchemaObjectId.cast (/home/xela/idBackend/node_modules/mongoose/lib/schema/objectId.js:250:11)
+    at SchemaType.applySetters (/home/xela/idBackend/node_modules/mongoose/lib/schemaType.js:1221:12)
+    at SchemaType.castForQuery (/home/xela/idBackend/node_modules/mongoose/lib/schemaType.js:1636:17)
+    at cast (/home/xela/idBackend/node_modules/mongoose/lib/cast.js:375:32)
+    at Query.cast (/home/xela/idBackend/node_modules/mongoose/lib/query.js:4775:12)
+    at Query._castConditions (/home/xela/idBackend/node_modules/mongoose/lib/query.js:2199:10)
+    at model.Query._findOne (/home/xela/idBackend/node_modules/mongoose/lib/query.js:2513:8)
+    at model.Query.exec (/home/xela/idBackend/node_modules/mongoose/lib/query.js:4319:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.getSingleEvent (/home/xela/idBackend/controllers/event/eventController.js:61:27)
+Mon Mar 11 2024 14:58:18 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser1@g"... is not valid JSON
+Mon Mar 11 2024 14:58:19 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser2@g"... is not valid JSON
+Mon Mar 11 2024 14:58:19 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser3@g"... is not valid JSON
+Mon Mar 11 2024 14:58:19 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser4@g"... is not valid JSON
+Mon Mar 11 2024 14:58:19 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser5@g"... is not valid JSON
+Mon Mar 11 2024 14:58:19 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser6@g"... is not valid JSON
+Mon Mar 11 2024 14:58:19 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser7@g"... is not valid JSON
+Mon Mar 11 2024 14:58:19 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser8@g"... is not valid JSON
+Mon Mar 11 2024 14:58:19 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser9@g"... is not valid JSON
+Mon Mar 11 2024 14:58:19 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser10@"... is not valid JSON
+Mon Mar 11 2024 15:01:21 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser1@g"... is not valid JSON
+Mon Mar 11 2024 15:01:21 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser2@g"... is not valid JSON
+Mon Mar 11 2024 15:01:21 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser3@g"... is not valid JSON
+Mon Mar 11 2024 15:01:21 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser4@g"... is not valid JSON
+Mon Mar 11 2024 15:01:21 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser5@g"... is not valid JSON
+Mon Mar 11 2024 15:01:21 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser6@g"... is not valid JSON
+Mon Mar 11 2024 15:01:21 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser7@g"... is not valid JSON
+Mon Mar 11 2024 15:01:21 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser8@g"... is not valid JSON
+Mon Mar 11 2024 15:01:21 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser9@g"... is not valid JSON
+Mon Mar 11 2024 15:01:22 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser10@"... is not valid JSON
+Mon Mar 11 2024 15:03:17 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser1@g"... is not valid JSON
+Mon Mar 11 2024 15:03:17 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser2@g"... is not valid JSON
+Mon Mar 11 2024 15:03:17 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser3@g"... is not valid JSON
+Mon Mar 11 2024 15:03:17 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser4@g"... is not valid JSON
+Mon Mar 11 2024 15:03:18 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser5@g"... is not valid JSON
+Mon Mar 11 2024 15:03:18 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser6@g"... is not valid JSON
+Mon Mar 11 2024 15:03:18 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser7@g"... is not valid JSON
+Mon Mar 11 2024 15:03:18 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser8@g"... is not valid JSON
+Mon Mar 11 2024 15:03:18 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser9@g"... is not valid JSON
+Mon Mar 11 2024 15:03:18 GMT+0100 (West Africa Standard Time) SyntaxError: Unexpected token 'e', ...""email": testuser10@"... is not valid JSON
+Fri Mar 15 2024 16:56:44 GMT+0100 (West Africa Standard Time) Error: CastError: Cast to ObjectId failed for value "xelabyte" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (/home/xela/idBackend/node_modules/mongoose/lib/schema/objectId.js:250:11)
+    at SchemaType.applySetters (/home/xela/idBackend/node_modules/mongoose/lib/schemaType.js:1221:12)
+    at SchemaType.castForQuery (/home/xela/idBackend/node_modules/mongoose/lib/schemaType.js:1636:17)
+    at cast (/home/xela/idBackend/node_modules/mongoose/lib/cast.js:375:32)
+    at Query.cast (/home/xela/idBackend/node_modules/mongoose/lib/query.js:4775:12)
+    at Query._castConditions (/home/xela/idBackend/node_modules/mongoose/lib/query.js:2199:10)
+    at model.Query._findOneAndUpdate (/home/xela/idBackend/node_modules/mongoose/lib/query.js:3271:8)
+    at model.Query.exec (/home/xela/idBackend/node_modules/mongoose/lib/query.js:4319:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.updateWalletBalance (/home/xela/idBackend/controllers/wallet/walletController.js:49:22)
+Fri Mar 15 2024 16:58:36 GMT+0100 (West Africa Standard Time) Error: CastError: Cast to ObjectId failed for value "xelabyte" (type string) at path "_id" for model "User"
+    at SchemaObjectId.cast (/home/xela/idBackend/node_modules/mongoose/lib/schema/objectId.js:250:11)
+    at SchemaType.applySetters (/home/xela/idBackend/node_modules/mongoose/lib/schemaType.js:1221:12)
+    at SchemaType.castForQuery (/home/xela/idBackend/node_modules/mongoose/lib/schemaType.js:1636:17)
+    at cast (/home/xela/idBackend/node_modules/mongoose/lib/cast.js:375:32)
+    at Query.cast (/home/xela/idBackend/node_modules/mongoose/lib/query.js:4775:12)
+    at Query._castConditions (/home/xela/idBackend/node_modules/mongoose/lib/query.js:2199:10)
+    at model.Query._findOneAndUpdate (/home/xela/idBackend/node_modules/mongoose/lib/query.js:3271:8)
+    at model.Query.exec (/home/xela/idBackend/node_modules/mongoose/lib/query.js:4319:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.updateWalletBalance (/home/xela/idBackend/controllers/wallet/walletController.js:49:22)
+Fri Mar 15 2024 17:25:23 GMT+0100 (West Africa Standard Time) Error: ReferenceError: amount is not defined
+    at exports.updateWalletBalance (/home/xela/idBackend/controllers/wallet/walletController.js:43:5)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/home/xela/idBackend/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at /home/xela/idBackend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/home/xela/idBackend/node_modules/express/lib/router/index.js:346:12)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/home/xela/idBackend/node_modules/express/lib/router/index.js:175:3)
+    at router (/home/xela/idBackend/node_modules/express/lib/router/index.js:47:12)
+Fri Mar 15 2024 18:58:52 GMT+0100 (West Africa Standard Time) Error: TypeError: Wallet.findOneAndUpdate is not a function
+    at exports.updateWallet (/home/xela/idBackend/core/updateWallet.js:11:16)
+    at exports.updateUserWallet (/home/xela/idBackend/controllers/wallet/walletController.js:67:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Mar 15 2024 19:13:51 GMT+0100 (West Africa Standard Time) Error: TypeError: user.findOne is not a function
+    at exports.updateProfile (/home/xela/idBackend/controllers/profile/profileController.js:11:41)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+    at exports.verifyToken (/home/xela/idBackend/core/verifyToken.js:24:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Mar 15 2024 19:14:22 GMT+0100 (West Africa Standard Time) Error: TypeError: user.findOne is not a function
+    at exports.updateProfile (/home/xela/idBackend/controllers/profile/profileController.js:11:41)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+    at exports.verifyToken (/home/xela/idBackend/core/verifyToken.js:24:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Mar 15 2024 19:15:04 GMT+0100 (West Africa Standard Time) Error: TypeError: user.findOne is not a function
+    at exports.updateProfile (/home/xela/idBackend/controllers/profile/profileController.js:11:41)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+    at exports.verifyToken (/home/xela/idBackend/core/verifyToken.js:24:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Mar 15 2024 19:16:35 GMT+0100 (West Africa Standard Time) Error: TypeError: user.findOne is not a function
+    at exports.updateProfile (/home/xela/idBackend/controllers/profile/profileController.js:11:41)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+    at exports.verifyToken (/home/xela/idBackend/core/verifyToken.js:24:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Mar 15 2024 19:17:43 GMT+0100 (West Africa Standard Time) Error: TypeError: user.findOne is not a function
+    at exports.updateProfile (/home/xela/idBackend/controllers/profile/profileController.js:11:41)
+    at Layer.handle [as handle_request] (/home/xela/idBackend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/xela/idBackend/node_modules/express/lib/router/route.js:144:13)
+    at exports.verifyToken (/home/xela/idBackend/core/verifyToken.js:24:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri Mar 15 2024 19:22:00 GMT+0100 (West Africa Standard Time) Error: ReferenceError: _ is not defined
+    at exports.sendToWallet (/home/xela/idBackend/controllers/wallet/walletController.js:131:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Sat Mar 16 2024 23:01:24 GMT+0100 (West Africa Standard Time) Error: ReferenceError: pushNotification is not defined
+    at exports.sendToWallet (/home/xela/idBackend/controllers/wallet/walletController.js:157:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Sun Mar 17 2024 00:24:39 GMT+0100 (West Africa Standard Time) Error: ReferenceError: events is not defined
+    at exports.getAllEvents (/home/xela/idBackend/controllers/event/eventController.js:33:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
